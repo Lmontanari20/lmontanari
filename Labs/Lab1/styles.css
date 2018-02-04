@@ -1,0 +1,44 @@
+body {
+    background-color: #2B00C4;
+    color:white;
+}
+header, footer, nav{
+    text-align:center;
+    color:yellow;
+}
+nav a {
+    padding: 10px;
+    color:yellow;
+    
+}
+nav a:hover {
+    color: black;
+}
+
+.hobby {
+    color:yellow;
+}
+table, td {
+    border:1px solid black;
+    border-color:yellow;
+    background-color:#C4AD00;
+    margin:0px auto;
+}
+ul {
+    margin: 0 auto;
+}
+#picture {
+    float:left;
+    padding-left:250px;
+    border-radius:200px;
+}
+#mypicture {
+    text-align:left;
+    padding-left:200px;
+}
+#form {
+    margin:0 auto;
+}
+#content {
+    text-align:center;
+}
