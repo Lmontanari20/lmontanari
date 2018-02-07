@@ -23,12 +23,12 @@ h3, li {
 #jpic {
     position:absolute;
     top:0;
-    left:390;
+    left:290;
     z-index:-1;
 }
 #py {
     position:absolute;
-    left:460;
+    left:460px;
     z-index:-1;
 }
 #jtext, #ptext {
