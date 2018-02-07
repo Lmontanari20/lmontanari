@@ -1,0 +1,59 @@
+h1,nav,footer {
+    text-align:center;
+    font-family:cursive;
+}
+#homepic {
+    border-radius:30px;
+    float:left;
+    display:block;
+}
+h3, li {
+    color:white;
+}
+#bib {
+    color:white;
+}
+#cpp {
+    position:absolute;
+    top:114px;
+    left:415px;
+    bottom:0;
+    z-index: -1;
+}
+#jpic {
+    position:absolute;
+    top:0;
+    left:390;
+    z-index:-1;
+}
+#py {
+    position:absolute;
+    left:460;
+    z-index:-1;
+}
+#jtext, #ptext {
+    text-align:center;
+    color:white;
+    font-family: fantasy;
+    
+}
+#ctext {
+    text-align:center;
+    color:white;
+    font-family: fantasy;
+}
+#text {
+    margin-left:500px;
+    padding-right:30px;
+    font-family:fantasy;
+    color:white;
+}
+body {
+    background-color:#36968E;
+    
+}
+nav a:hover {
+    color:white;
+    font-size:125%;
+}
+
