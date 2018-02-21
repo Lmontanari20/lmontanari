@@ -130,8 +130,8 @@
             <img src="http://www.khwebgraphicdesign.com/sportinggoodsstores/nba_subpages/nba_logo.gif" alt="NBA Allstar Scores" />
         </a>
     </body>
-     <footer>
+    <footer>
         <hr>
         <p>CST 336 Internet Programming.2018&copy; Montanari</p> <br />
-        </footer>
+    </footer>
 </html>

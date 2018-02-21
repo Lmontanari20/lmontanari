@@ -1,10 +1,16 @@
-h1,footer {
+h1 {
+    text-align:center;
+    font-family: monospace;
+    color:white;
+}
+footer {
     text-align:center;
     font-family: monospace;
     color:white;
 }
 body {
     background-image:url("http://tehamagrouppr.objects.cdn.dream.io/wp-content/uploads/2017/02/nbalogo-1024x576.jpg");
+    background-attachment:fixed;
 }
 table {
     color:white;
@@ -25,6 +31,7 @@ table {
 }
 img {
     margin-left:150px;
+    
 }
 #Steph {
     float:left;
