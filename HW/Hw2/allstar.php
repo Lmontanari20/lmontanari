@@ -129,10 +129,10 @@
     </body>
     <footer>
         <br />
-        <hr>
         <a href="https://www.si.com/nba/2018/02/19/nba-all-star-game-lebron-james-kevin-durant-stephen-curry-adam-silver-los-angeles">
             <img src="http://www.khwebgraphicdesign.com/sportinggoodsstores/nba_subpages/nba_logo.gif" alt="NBA Allstar Scores" />
         </a>
+        <hr>
         <p>CST 336 Internet Programming.2018&copy; Montanari</p> <br />
     </footer>
 </html>
