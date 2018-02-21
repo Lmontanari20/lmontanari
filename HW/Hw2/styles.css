@@ -7,7 +7,7 @@ footer {
     text-align:center;
     font-family: monospace;
     color:white;
-    margin-top:100px;
+    margin-top:200px;
     display:block;
 }
 body {
@@ -33,7 +33,10 @@ table {
     margin-left:100px;
     margin-right:100px;
 }
-
+img {
+    margin-left:auto;
+    margin-right:auto;
+}
 #Steph {
     float:right;
     display:inline-table;
