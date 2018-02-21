@@ -30,8 +30,7 @@ table {
     margin-right:100px;
 }
 img {
-    margin-left:150px;
-    
+    position:static;
 }
 #Steph {
     float:left;
