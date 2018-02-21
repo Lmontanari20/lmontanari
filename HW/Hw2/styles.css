@@ -7,6 +7,7 @@ footer {
     text-align:center;
     font-family: monospace;
     color:white;
+    display:;
 }
 body {
     background-image:url("http://tehamagrouppr.objects.cdn.dream.io/wp-content/uploads/2017/02/nbalogo-1024x576.jpg");
@@ -22,16 +23,17 @@ table {
 }
 #Lebron {
     float:left;
+    display:inline-table;
 }
 #start5 {
+    display:inline-table;
     border-color: rgb(255,255,255);
-    float:left;
+    float:center;
     margin-left:100px;
     margin-right:100px;
 }
-img {
-    position:static;
-}
+
 #Steph {
-    float:left;
+    float:right;
+    display:inline-table;
 }
