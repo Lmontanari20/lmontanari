@@ -1,0 +1,64 @@
+[21-Feb-2018 17:57:44 UTC] PHP Parse error:  syntax error, unexpected '$TSteph' (T_VARIABLE) in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 22
+[21-Feb-2018 17:58:24 UTC] PHP Parse error:  syntax error, unexpected 'ii' (T_STRING), expecting ';' in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 39
+[21-Feb-2018 17:58:28 UTC] PHP Parse error:  syntax error, unexpected 'ii' (T_STRING), expecting ';' in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 39
+[21-Feb-2018 17:59:58 UTC] PHP Parse error:  syntax error, unexpected 'ii' (T_STRING), expecting ';' in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 39
+[21-Feb-2018 18:00:00 UTC] PHP Parse error:  syntax error, unexpected 'ii' (T_STRING), expecting ';' in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 39
+[21-Feb-2018 18:11:55 UTC] PHP Fatal error:  Call to undefined function push() in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 52
+[21-Feb-2018 18:11:55 UTC] PHP Stack trace:
+[21-Feb-2018 18:11:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:11:55 UTC] PHP   2. StephStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:58
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 52
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. StephStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:58
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:52
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 52
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. StephStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:58
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:52
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 52
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. StephStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:58
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:52
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 52
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. StephStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:58
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:52
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 52
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. StephStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:58
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:52
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 41
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. LebronStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:59
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:41
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 41
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. LebronStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:59
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:41
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 41
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. LebronStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:59
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:41
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 41
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. LebronStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:59
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:41
+[21-Feb-2018 18:13:02 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 41
+[21-Feb-2018 18:13:02 UTC] PHP Stack trace:
+[21-Feb-2018 18:13:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:0
+[21-Feb-2018 18:13:02 UTC] PHP   2. LebronStart5() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:59
+[21-Feb-2018 18:13:02 UTC] PHP   3. array_push() /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php:41
+[21-Feb-2018 18:23:41 UTC] PHP Parse error:  syntax error, unexpected '$SStart5' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 93
+[21-Feb-2018 18:24:04 UTC] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 96
+[21-Feb-2018 18:26:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 99
+[21-Feb-2018 18:26:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 99
+[21-Feb-2018 18:26:22 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 99
