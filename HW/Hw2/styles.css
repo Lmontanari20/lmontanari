@@ -13,6 +13,10 @@ footer {
 body {
     background-image:url("http://tehamagrouppr.objects.cdn.dream.io/wp-content/uploads/2017/02/nbalogo-1024x576.jpg");
     background-attachment:fixed;
+    height: 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
 table {
     color:white;
