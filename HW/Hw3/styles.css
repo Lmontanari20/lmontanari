@@ -1,0 +1,29 @@
+h1{
+    font-family: fantasy;
+    text-align:center;
+}
+header {
+    background-color:#f1f442;
+}
+ol {
+    background-color:#f1f442;
+    list-style-position:inside;
+    text-align:center;
+    border-style:solid;
+    border-width:20px;
+    border-color:#f1f442;
+}
+body {
+    background-color:#f41a55;
+}
+li {
+    background-color:#f41a55;
+}
+#submit {
+   margin-left:500px;
+   width:75px;
+   height:30px;
+   background-color:#f1f442;
+   border-radius:10px;
+}
+
