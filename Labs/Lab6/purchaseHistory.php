@@ -18,11 +18,11 @@ $productId = $_GET['productId'];
     $stmt = $conn->prepare($sql);
     $stmt->execute($np);
     $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    echo $records[0]['productName'] . "<br>";
+    
     
     
     foreach ($records as $record) {
-        echo "<img src='" . $records['productImage'] . "' /><br />";
+        echo "<img src='" . $record['productImage'] . "' alt='".$record['productName']."' /><br />";
         echo $record['productName'] . "<br>";
         echo "Purchase Date: " . $record["purchaseDate"] ."<br />";
         echo "Unit Price: " . $record["unitPrice"] ."<br />";
