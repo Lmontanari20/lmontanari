@@ -1,0 +1,51 @@
+[12-Mar-2018 21:29:35 UTC] PHP Parse error:  syntax error, unexpected '2018' (T_LNUMBER) in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 31
+[12-Mar-2018 21:30:09 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:30:09 UTC] PHP Stack trace:
+[12-Mar-2018 21:30:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:30:09 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:30:09 UTC] PHP Stack trace:
+[12-Mar-2018 21:30:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:32:42 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:32:42 UTC] PHP Stack trace:
+[12-Mar-2018 21:32:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:32:42 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:32:42 UTC] PHP Stack trace:
+[12-Mar-2018 21:32:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:32:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 43
+[12-Mar-2018 21:33:51 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:33:51 UTC] PHP Stack trace:
+[12-Mar-2018 21:33:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:33:51 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:33:51 UTC] PHP Stack trace:
+[12-Mar-2018 21:33:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:33:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 43
+[12-Mar-2018 21:35:55 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:35:55 UTC] PHP Stack trace:
+[12-Mar-2018 21:35:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:35:55 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:35:55 UTC] PHP Stack trace:
+[12-Mar-2018 21:35:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:35:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 43
+[12-Mar-2018 21:36:22 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:36:22 UTC] PHP Stack trace:
+[12-Mar-2018 21:36:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:36:22 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 17
+[12-Mar-2018 21:36:22 UTC] PHP Stack trace:
+[12-Mar-2018 21:36:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:0
+[12-Mar-2018 21:36:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php(43): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Challenges/Challenge4/Reports.php on line 43
