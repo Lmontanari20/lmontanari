@@ -36,7 +36,7 @@ function displayAllProducts() {
         
         <br />
         <form action="addProduct.php">
-        <input type="submit" name="addproduct" value="addproduct">
+        <input type="submit" name="addProduct" value="Add Product"/>
         </form>
         <strong> Products: </strong> <br />
         
@@ -44,6 +44,7 @@ function displayAllProducts() {
         <?php
         $records = displayAllProducts();
         foreach($records as $record) {
+            echo "<a href='updateProduct.php?productId=".$record['productId']."'>Update</a>";
             echo $record['productName'];
             echo '<br />';
         }

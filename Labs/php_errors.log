@@ -261,3 +261,126 @@ Stack trace:
 [25-Mar-2018 06:04:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/lmontanari/Labs/Lab5/scart.php on line 6
 [25-Mar-2018 06:04:23 UTC] PHP Stack trace:
 [25-Mar-2018 06:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Labs/Lab5/scart.php:0
+[04-Apr-2018 21:17:33 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Labs/Lab7/loginProcess.php on line 7
+[04-Apr-2018 21:17:33 UTC] PHP Stack trace:
+[04-Apr-2018 21:17:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Labs/Lab7/loginProcess.php:0
+[04-Apr-2018 21:17:33 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Labs/Lab7/loginProcess.php on line 7
+[04-Apr-2018 21:17:33 UTC] PHP Stack trace:
+[04-Apr-2018 21:17:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Labs/Lab7/loginProcess.php:0
+[04-Apr-2018 21:17:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Labs/Lab7/loginProcess.php on line 9
+[04-Apr-2018 21:17:33 UTC] PHP Stack trace:
+[04-Apr-2018 21:17:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Labs/Lab7/loginProcess.php:0
+[04-Apr-2018 21:58:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 21:58:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 21:59:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:00:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:00:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:01:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:01:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:01:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:02:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:04:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:04:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:07:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:09:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php(62): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php on line 16
+[04-Apr-2018 22:11:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php(62): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php on line 16
+[04-Apr-2018 22:11:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php(62): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/addProduct.php on line 16
+[04-Apr-2018 22:11:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:12:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:12:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32
+[04-Apr-2018 22:12:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(32): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php(61): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Labs/Lab7/updateProduct.php on line 32

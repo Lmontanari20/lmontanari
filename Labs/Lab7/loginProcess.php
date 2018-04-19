@@ -4,7 +4,7 @@
 
     //print_r($_POST);  //displays values passed in the form
     
-    include '../../dbConnection.php';
+    include '../../dbConn.php';
     
     $conn = getDatabaseConnection("ottermart");
     
@@ -15,10 +15,10 @@
     
     
     //following sql does not prevent SQL injection
-    $sql = "SELECT * 
-            FROM om_admin
-            WHERE username = '$username'
-            AND   password = '$password'";
+    // $sql = "SELECT * 
+    //         FROM om_admin
+    //         WHERE username = '$username'
+    //         AND   password = '$password'";
             
     //following sql prevents sql injection by avoiding using single quotes        
     $sql = "SELECT * 

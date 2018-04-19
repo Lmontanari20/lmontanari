@@ -6,7 +6,7 @@
     
     $sql3 = "SELECT movie_title, movie_category, duration, company, release_year FROM `movie`
              WHERE release_year > 2000 ORDER BY duration DESC LIMIT 3";
-    $sql3 = 
+   // $sql3 = 
     $host = "localhost";
     $dbname = "midterm";
     $username = "root";

@@ -1,0 +1,5 @@
+[05-Apr-2018 04:16:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'localhost' at line 1' in /home/ubuntu/workspace/lmontanari/Exams/Midterm/program2/program2.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Exams/Midterm/program2/program2.php(30): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Exams/Midterm/program2/program2.php on line 30
