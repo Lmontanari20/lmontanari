@@ -62,3 +62,18 @@
 [21-Feb-2018 18:26:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 99
 [21-Feb-2018 18:26:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 99
 [21-Feb-2018 18:26:22 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/lmontanari/HW/Hw2/allstar.php on line 99
+[25-Apr-2018 16:48:50 UTC] PHP Fatal error:  Call to undefined function grade_quiz() in /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php on line 118
+[25-Apr-2018 16:48:51 UTC] PHP Stack trace:
+[25-Apr-2018 16:48:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php:0
+[25-Apr-2018 16:49:01 UTC] PHP Fatal error:  Call to undefined function grade_quiz() in /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php on line 118
+[25-Apr-2018 16:49:01 UTC] PHP Stack trace:
+[25-Apr-2018 16:49:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php:0
+[25-Apr-2018 16:50:11 UTC] PHP Fatal error:  Call to undefined function grade_quiz() in /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php on line 118
+[25-Apr-2018 16:50:11 UTC] PHP Stack trace:
+[25-Apr-2018 16:50:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php:0
+[25-Apr-2018 16:50:15 UTC] PHP Fatal error:  Call to undefined function grade_quiz() in /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php on line 118
+[25-Apr-2018 16:50:15 UTC] PHP Stack trace:
+[25-Apr-2018 16:50:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php:0
+[25-Apr-2018 16:50:17 UTC] PHP Fatal error:  Call to undefined function grade_quiz() in /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php on line 118
+[25-Apr-2018 16:50:17 UTC] PHP Stack trace:
+[25-Apr-2018 16:50:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/HW/Hw3/index.php:0

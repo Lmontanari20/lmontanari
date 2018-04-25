@@ -1,4 +1,4 @@
-<?php
+<!--
 
 function grade_quiz() {
     $grade = 0;
@@ -38,14 +38,15 @@ function grade_quiz() {
     }
 }
 
-?>
-
+?> 
+-->
 <!DOCTYPE html>
 <html>
     <head>
         <title> Pokemon Master</title>
         <meta charset="utf-8"/>
         <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
         <header>
         <h1>Pokemon Quiz</h1>
@@ -57,8 +58,8 @@ function grade_quiz() {
             <br />
             <li>
                 <h3>How many Evolutions does a starter Pokemon have?</h3>
-                <form>
-                    <input type="text" name="answer0" value="<?=$_GET['answer0']?>" />
+                <form id="form">
+                    <input type="text" name="answer0" id="answer0">
                     <br />       
                     <br />
             </li>
@@ -66,11 +67,11 @@ function grade_quiz() {
             <li>
                 <h3>Who is the Pokemon Master?</h3>
                 
-                    <input type="radio" name="answer1" id="Ash" value="Ash" <?= ($_GET['answer1']=="Ash")?"checked":"" ?>>
+                    <input type="radio" name="answer1" id="answer1" value="Ash" check("answer1", "Ash")>
                     <label for="Ash">Ash Catch'em</label><br />
-                    <input type="radio" name="answer1" id="Trash" value="Trash" <?= ($_GET['answer1']=="Trash")?"checked":"" ?>>
+                    <input type="radio" name="answer1" id="answer1" value="Trash" check("answer1", "Trash")>
                     <label for="Trash">Trash Drop'em</label><br />
-                    <input type="radio" name="answer1" id="Brock" value="Brock" <?= ($_GET['answer1']=="Brock")?"checked":"" ?>>
+                    <input type="radio" name="answer1" id="answer1" value="Brock" check("answer1", "Brock")>
                     <label for="Brock">Brock Obama</label><br />
                     <br />
             </li>
@@ -78,11 +79,11 @@ function grade_quiz() {
             <li>
                 <h3>Which Statement is True?</h3>
                 
-                    <input type="checkbox" name="answer2" id="Fire"value="Fire" <?= ($_GET['answer2']=="Fire")?"checked":"" ?>>
+                    <input type="checkbox" name="answer2" id="answer2"value="Fire" check("answer2", "Fire")>
                     <label for="Fire">Fire beats Water</label><br />
-                    <input type="checkbox" name="answer2" id="Water" value="Water" <?= ($_GET['answer2']=="Water")?"checked":"" ?>>
+                    <input type="checkbox" name="answer2" id="answer2" value="Water" check("answer2", "Water")>
                     <label for="Water">Water beats Electric</label><br />
-                    <input type="checkbox" name="answer2" id="Electric" value="Electric" <?= ($_GET['answer2']=="Electric")?"checked":"" ?>>
+                    <input type="checkbox" name="answer2" id="answer2" value="Electric" check("answer2", "Electric")>
                     <label for="Electric">Electric beats Sand</label><br />
                     <br />
             </li>
@@ -90,18 +91,18 @@ function grade_quiz() {
             <li>
                 <h3>Which type of Pokemon is Dratini</h3>
                 
-                    <input type="text" name="answer3" value="<?=$_GET['answer3']?>"/>
+                    <input type="text" name="answer3" id="answer3" />
                     <br /><br />
             </li>
             <br />
             <li>
                 <h3>Which Pokemon is the most rare</h3>
                 
-                    <input type="checkbox" name="answer4" id="Squirtle" value="Squirtle" <?= ($_GET['answer4']=="Squirtle")?"checked":"" ?>>
+                    <input type="checkbox" name="answer4" id="answer4" value="Squirtle" check("answer4", "Squirtle")>
                     <label for="Squirtle">Squirtle</label><br />
-                    <input type="checkbox" name="answer4" id="Mew" value="Mew"<?= ($_GET['answer4']=="Mew")?"checked":"" ?>>
+                    <input type="checkbox" name="answer4" id="answer4" value="Mew" check("answer4", "Mew")>
                     <label for="Mew">Mew</label><br />
-                    <input type="checkbox" name="answer4" id="Snorlax" value="Snorlax" <?= ($_GET['answer4']=="Snorlax")?"checked":"" ?>>
+                    <input type="checkbox" name="answer4" id="answer4" value="Snorlax" check("answer1", "Snorlax")>
                     <label for="Snorlax">Snorlax</label><br />
                     <br />
             </li>
@@ -110,8 +111,10 @@ function grade_quiz() {
         <input id="submit" type="submit" name="submit" value="Submit" size="50"/>
         
         </form>
-        <?php 
-            grade_quiz()
-        ?>
+        <div id="result">
+            
+        </div>
+        
+        <script src="pokemon.js"></script>
     </body>
 </html>
