@@ -18,6 +18,44 @@
         <script>
             $(document).ready( function() {
                 
+                $("#username").change( function() {
+                    
+                    
+                    $.ajax({
+                        //method the api is using: type
+                        type: "GET",
+                        //url to the api: url
+                        url: "checkUsername.php",
+                        //type of data displayed by the api: dataType
+                        dataType: "json",
+                        //parameter that the api is expecting: data
+                        data: { "username":  $("#username").val() },
+                        success: function(data,status) {
+                            
+                            //alert(data);
+                            
+                            if(!data) {
+                                //alert("Username is Available");
+                                $("#check").empty();
+                                $("#check").append("Username is Available");
+                                $("#check").css("color","green")
+                            }else 
+                             {   //alert("Username is ALREADY TAKEN");
+                                $("#check").empty();
+                                $("#check").append("Username is ALREADY TAKEN");
+                                $("#check").css("color","red")
+                            }
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                        }
+
+                    });
+                });
+                
+                
+            
                 $("#zipCode").change(  function(){
                     //alert( $("#zipCode").val() ); 
                     $.ajax({
@@ -29,13 +67,22 @@
                         dataType: "json",
                         //parameter that the api is expecting: data
                         data: { "zip":  $("#zipCode").val() },
-                        success: function(data,status) {
-                            
-                            //alert(data.city);
-                            $("#city").html(data.city);
-                            $("#lat").html(data.latitude);
-                            $("#long").html(data.longitude);
                         
+                        success: function(data,status) {
+                            if(data){
+                                //alert(data.city);
+                                $("#zip").empty();
+                                $("#city").html(data.city);
+                                $("#lat").html(data.latitude);
+                                $("#long").html(data.longitude);
+                            }
+                            else {
+                                $("#zip").html("ZipCode Unavailable");
+                                $("#zip").css("color","red");
+                                $("#city").empty();
+                                $("#lat").empty();
+                                $("#long").empty();
+                            }
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
                         //alert(status);
@@ -43,6 +90,7 @@
 
                     });//ajax
                 } );
+                    
                     
                 $("#state").change( function() {    
                     $.ajax({
@@ -70,12 +118,39 @@
                     });//ajax
                     
                 } );
+                
+                $("#submit").click( function() {    
+                    $("#checkpass").empty();
+                    if($("#pass1").val() != $("#pass2").val()){
+                        $("#checkpass").html("PASSWORDS DO NOT MATCH");
+                        $("#checkpass").css("color", "red");
+                    }
+                    
+                } );
             
                 
             } ); //documentReady 
             
         </script>
-
+     <style>
+         fieldset {
+             text-align: center;
+             color: #9b3c29;
+             background-color:#33a0aa;
+             width: 700px;
+             margin: auto;
+         }
+         legend {
+             color:black;
+         }
+         h1 {
+             text-align: center;
+             color: #33a0aa;
+         }
+         body {
+             background-color: #9b3c29;
+         }
+     </style>
     </head>
 
     <body>
@@ -89,7 +164,7 @@
                 Last Name:   <input type="text"><br> 
                 Email:       <input type="text"><br> 
                 Phone Number:<input type="text"><br><br>
-                Zip Code:    <input type="text" id="zipCode"><br>
+                Zip Code:    <input type="text" id="zipCode"><span id="zip"></span><br>
                 City: <span id="city"></span>
                 <br>
                 Latitude: <span id="lat"></span>
@@ -107,13 +182,13 @@
                 
                 Select a County: <select id="county"></select><br>
                 
-                Desired Username: <input type="text"><br>
+                Desired Username: <input id="username" type="text"><span id="check" ></span><br>
                 
-                Password: <input type="password"><br>
+                Password: <input id="pass1" type="password"><br>
                 
-                Type Password Again: <input type="password"><br>
+                Type Password Again: <input id="pass2" type="password"><span id="checkpass"></span><br>
                 
-                <input type="submit" value="Sign up!">
+                <input type="submit" id="submit" value="Sign up!">
             </fieldset>
         </form>
     
