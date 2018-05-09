@@ -1,1 +1,364 @@
 [19-Feb-2018 22:44:49 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/ubuntu/workspace/lmontanari/Practice/getSession.php on line 16
+[06-May-2018 00:01:41 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:01:41 UTC] PHP Stack trace:
+[06-May-2018 00:01:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:01:41 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:01:41 UTC] PHP Stack trace:
+[06-May-2018 00:01:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:01:41 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 4
+[06-May-2018 00:01:41 UTC] PHP Stack trace:
+[06-May-2018 00:01:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:01:48 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:01:48 UTC] PHP Stack trace:
+[06-May-2018 00:01:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:01:48 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:01:48 UTC] PHP Stack trace:
+[06-May-2018 00:01:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:01:48 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 4
+[06-May-2018 00:01:48 UTC] PHP Stack trace:
+[06-May-2018 00:01:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:01:49 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:01:49 UTC] PHP Stack trace:
+[06-May-2018 00:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:01:49 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:01:49 UTC] PHP Stack trace:
+[06-May-2018 00:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:01:49 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 4
+[06-May-2018 00:01:49 UTC] PHP Stack trace:
+[06-May-2018 00:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:00 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:02:00 UTC] PHP Stack trace:
+[06-May-2018 00:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:00 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:02:00 UTC] PHP Stack trace:
+[06-May-2018 00:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 4
+[06-May-2018 00:02:00 UTC] PHP Stack trace:
+[06-May-2018 00:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:02 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:02:02 UTC] PHP Stack trace:
+[06-May-2018 00:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:02 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:02:02 UTC] PHP Stack trace:
+[06-May-2018 00:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 4
+[06-May-2018 00:02:02 UTC] PHP Stack trace:
+[06-May-2018 00:02:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:08 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:02:08 UTC] PHP Stack trace:
+[06-May-2018 00:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:08 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:02:08 UTC] PHP Stack trace:
+[06-May-2018 00:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 4
+[06-May-2018 00:02:08 UTC] PHP Stack trace:
+[06-May-2018 00:02:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:56 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:02:56 UTC] PHP Stack trace:
+[06-May-2018 00:02:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:56 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:02:56 UTC] PHP Stack trace:
+[06-May-2018 00:02:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:02:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 4
+[06-May-2018 00:02:56 UTC] PHP Stack trace:
+[06-May-2018 00:02:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:03:00 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:03:00 UTC] PHP Stack trace:
+[06-May-2018 00:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:03:00 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:03:00 UTC] PHP Stack trace:
+[06-May-2018 00:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:03:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 4
+[06-May-2018 00:03:00 UTC] PHP Stack trace:
+[06-May-2018 00:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:03:02 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:03:02 UTC] PHP Stack trace:
+[06-May-2018 00:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:03:02 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/index.php on line 3
+[06-May-2018 00:03:02 UTC] PHP Stack trace:
+[06-May-2018 00:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 00:03:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 4
+[06-May-2018 00:03:02 UTC] PHP Stack trace:
+[06-May-2018 00:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 20:59:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:01:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:02:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:05:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:06:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:06:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:08:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:09:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '\'%halo%\''' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:12:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:13:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:14:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:14:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:15:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:15:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:15:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:16:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:16:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL WHERE 1 AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:17:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL WHERE 1 AND name LIKE '%halo%'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:17:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/lmontanari/Project/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(106): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 56
+[06-May-2018 21:33:13 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/lmontanari/Project/index.php on line 59
+[06-May-2018 21:39:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/lmontanari/Project/index.php on line 53
+[06-May-2018 21:39:31 UTC] PHP Fatal error:  Call to undefined function size() in /home/ubuntu/workspace/lmontanari/Project/index.php on line 51
+[06-May-2018 21:39:31 UTC] PHP Stack trace:
+[06-May-2018 21:39:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 21:39:31 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/lmontanari/Project/index.php:102
+[06-May-2018 21:40:35 UTC] PHP Warning:  sizeof() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/lmontanari/Project/index.php on line 51
+[06-May-2018 21:40:35 UTC] PHP Stack trace:
+[06-May-2018 21:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 21:40:35 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/lmontanari/Project/index.php:102
+[06-May-2018 21:40:35 UTC] PHP   3. sizeof() /home/ubuntu/workspace/lmontanari/Project/index.php:51
+[06-May-2018 21:40:37 UTC] PHP Warning:  sizeof() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/lmontanari/Project/index.php on line 51
+[06-May-2018 21:40:37 UTC] PHP Stack trace:
+[06-May-2018 21:40:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/index.php:0
+[06-May-2018 21:40:37 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/lmontanari/Project/index.php:102
+[06-May-2018 21:40:37 UTC] PHP   3. sizeof() /home/ubuntu/workspace/lmontanari/Project/index.php:51
+[06-May-2018 22:01:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'action' in 'where clause'' in /home/ubuntu/workspace/lmontanari/Project/index.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(54): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(110): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 54
+[06-May-2018 22:03:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'adventure' in 'where clause'' in /home/ubuntu/workspace/lmontanari/Project/index.php:54
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/index.php(54): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/lmontanari/Project/index.php(110): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/index.php on line 54
+[07-May-2018 04:28:40 UTC] PHP Warning:  include(../../dbConn.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/lmontanari/Project/login.php on line 7
+[07-May-2018 04:28:40 UTC] PHP Stack trace:
+[07-May-2018 04:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/login.php:0
+[07-May-2018 04:28:40 UTC] PHP Warning:  include(): Failed opening '../../dbConn.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/lmontanari/Project/login.php on line 7
+[07-May-2018 04:28:40 UTC] PHP Stack trace:
+[07-May-2018 04:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/login.php:0
+[07-May-2018 04:28:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/lmontanari/Project/login.php on line 9
+[07-May-2018 04:28:40 UTC] PHP Stack trace:
+[07-May-2018 04:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/login.php:0
+[07-May-2018 04:29:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'games.om_admin' doesn't exist' in /home/ubuntu/workspace/lmontanari/Project/login.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/login.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/login.php on line 26
+[07-May-2018 04:35:27 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/lmontanari/Project/login.php on line 31
+[07-May-2018 04:36:17 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/lmontanari/Project/login.php on line 31
+[07-May-2018 04:36:28 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/lmontanari/Project/login.php on line 31
+[07-May-2018 04:37:06 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/lmontanari/Project/login.php on line 33
+[07-May-2018 05:02:27 UTC] PHP Parse error:  syntax error, unexpected '$records' (T_VARIABLE) in /home/ubuntu/workspace/lmontanari/Project/update.php on line 23
+[07-May-2018 05:02:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/lmontanari/Project/update.php on line 24
+[07-May-2018 05:04:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ARMS' in 'where clause'' in /home/ubuntu/workspace/lmontanari/Project/update.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(28): deleteGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 23
+[07-May-2018 05:05:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ARMS' in 'where clause'' in /home/ubuntu/workspace/lmontanari/Project/update.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(28): deleteGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 23
+[07-May-2018 05:06:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ARMS' in 'where clause'' in /home/ubuntu/workspace/lmontanari/Project/update.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(28): deleteGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 23
+[07-May-2018 05:14:12 UTC] PHP Fatal error:  Call to undefined function round_to_2dp() in /home/ubuntu/workspace/lmontanari/Project/update.php on line 35
+[07-May-2018 05:14:12 UTC] PHP Stack trace:
+[07-May-2018 05:14:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/update.php:0
+[07-May-2018 05:14:12 UTC] PHP   2. avgPrice() /home/ubuntu/workspace/lmontanari/Project/update.php:52
+[08-May-2018 22:01:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '360, price = 3.99, rating = 4 WHERE name = halo 3' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:89
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(89): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 89
+[08-May-2018 22:05:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '360, price = 3.99, rating = 4 WHERE name = halo 3' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(90): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 90
+[08-May-2018 22:06:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '360 WHERE name = halo 3' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:90
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(90): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 90
+[08-May-2018 22:25:40 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/lmontanari/Project/update.php on line 108
+[08-May-2018 22:26:02 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/lmontanari/Project/update.php on line 111
+[08-May-2018 22:31:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/lmontanari/Project/update.php on line 109
+[08-May-2018 22:31:32 UTC] PHP Stack trace:
+[08-May-2018 22:31:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/lmontanari/Project/update.php:0
+[08-May-2018 22:31:32 UTC] PHP   2. addGame() /home/ubuntu/workspace/lmontanari/Project/update.php:115
+[08-May-2018 22:32:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 353, 5, 'ARMS.jpg )' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:111
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(111): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(116): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 111
+[08-May-2018 22:33:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 353, 5, 'ARMS.jpg' )' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:111
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(111): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(116): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 111
+[08-May-2018 22:34:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '353', 5, 'ARMS.jpg' )' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:111
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(111): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(116): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 111
+[08-May-2018 22:35:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' '2018', 4, 'ARMS.jpg' )' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:111
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(111): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(116): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 111
+[08-May-2018 22:36:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2018, 4, 'ARMS.jpg' )' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:111
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(111): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(116): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 111
+[08-May-2018 22:39:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2018, 4, 'ARMS.jpg')' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:111
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(111): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(116): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 111
+[08-May-2018 22:40:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2018, 4, 'ARMS.jpg')' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:112
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(112): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(117): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 112
+[08-May-2018 22:42:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2018, 4, 'ARMS.jpg')' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:112
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(112): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(117): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 112
+[08-May-2018 22:43:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2018, 4, 'url')' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:112
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(112): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(117): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 112
+[08-May-2018 22:44:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2018, 4, 'url')' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:112
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(112): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(117): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 112
+[08-May-2018 22:44:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2018, 4, 'url')' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:112
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(112): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(117): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 112
+[08-May-2018 22:45:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 2018, 5, 'ARMS.jpg')' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:112
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(112): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(117): addGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 112
+[09-May-2018 03:18:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1582 Incorrect parameter count in the call to native function 'ROUND'' in /home/ubuntu/workspace/lmontanari/Project/api.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/api.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/api.php on line 9
