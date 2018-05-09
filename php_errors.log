@@ -362,3 +362,15 @@ Stack trace:
 #0 /home/ubuntu/workspace/lmontanari/Project/api.php(9): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/lmontanari/Project/api.php on line 9
+[09-May-2018 04:08:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' rating =  WHERE name = 'adf'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:91
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(91): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(119): updateGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 91
+[09-May-2018 17:47:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' rating =  WHERE name = 'adf'' at line 1' in /home/ubuntu/workspace/lmontanari/Project/update.php:92
+Stack trace:
+#0 /home/ubuntu/workspace/lmontanari/Project/update.php(92): PDOStatement->execute()
+#1 /home/ubuntu/workspace/lmontanari/Project/update.php(121): updateGame()
+#2 {main}
+  thrown in /home/ubuntu/workspace/lmontanari/Project/update.php on line 92

@@ -79,6 +79,7 @@
     // }
     function updateGame() {
         global $conn;
+        $records = getAllGames();
         if(isset($_GET['update'])) {
             $console = $_GET['uconsole'];
             $name = $_GET['name'];
@@ -89,6 +90,7 @@
             
             $stmt = $conn->prepare($sql);
             $stmt->execute();
+            
         }
     }
     function addGame() {
@@ -169,7 +171,7 @@
                         data: {"min" : $(this).attr("min") },
                         success: function(data,status) {
                                 $('#ajax').empty();
-                                $('#ajax').append("Minimum Price: $" + data.avg);
+                                $('#ajax').append("Minimum Price: $" + data.min);
                                 $('#ajax').show();
                             
 
@@ -190,7 +192,7 @@
                         data: {"max" : $(this).attr("max") },
                         success: function(data,status) {
                                 $('#ajax').empty();
-                                $('#ajax').append("Maximum Price: $" + data.avg);
+                                $('#ajax').append("Maximum Price: $" + data.max);
                                 $('#ajax').show();
                             
 
@@ -226,7 +228,7 @@
         <div>
             <h4>Update Game</h4>
             <form>
-                Video Game Name: <input name="name" type="text" ><br>
+                Video Game Name: <input name="name" type="text"><br>
                 Updated Game Price: <input name="uprice" type="text" ><br>
                 Updated Game Console: <input name="uconsole" type="text" ><br>
                 Updated Game Rating: <input name="urating" type="text" ><br>
